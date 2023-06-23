@@ -5,14 +5,15 @@ const styles = StyleSheet.create({
         fontSize: 30,
         color: "white",
         marginTop: 15,
-        fontWeight: "Bold"
+        fontWeight: "Bold",
+
     },
 
     imageBanner:{
         width: '85%',
         height: 200,
         marginTop: 15,
-        borderRadius: 10
+        borderRadius: 10,
     }
 })
 export default styles;

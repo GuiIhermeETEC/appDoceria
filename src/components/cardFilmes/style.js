@@ -12,7 +12,6 @@ const styles = StyleSheet.create({
         color: "#fff",
         fontSize: 12,
         paddingTop: 8,
-
     },
     textNota: {
         fontSize: 10,

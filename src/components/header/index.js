@@ -7,9 +7,10 @@ export default function Header(){
     return(
         <View style = {styles.viewHeader}>
          <TouchableOpacity> 
-        <Feather style={{marginLeft:-72}} name="menu" size={36} color="white" />
+        <Feather style={{marginLeft:'-500%', marginTop:'15%'}} name="menu" size={36} color="white" />
         </TouchableOpacity>  
-        <Text style = {styles.textHeader}>  TEC FILMES  </Text> 
+        <Text style = {styles.textHeader1}>  DOCERIA </Text>
+        <Text style = {styles.textHeader2} >  Sua Delicia  </Text>  
 
         </View>
     );

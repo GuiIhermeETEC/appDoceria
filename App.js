@@ -15,7 +15,7 @@ export default function App() {
       <Search></Search>
       <BannerMovies></BannerMovies>
 
-<View style={{width:'90%'}}>  
+<View style={{width:'90%', backgroundColor:'red'}}>  
       <FlatList 
       showsHorizontalScrollIndicator = {false}
       horizontal = {true}

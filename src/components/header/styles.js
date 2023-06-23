@@ -3,17 +3,23 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
 
     viewHeader:{
-        flexDirection:'row',
+        flexDirection:'column',
         justifyContent:'space-between',
         alignItems:'center',
-        marginTop:8,
-        marginLeft:10
+        backgroundColor:'#9370DB',
+        width:'100%',
+        height:'15%'
     },
-    textHeader:{
-        fontSize:25,
+    textHeader1:{
+        fontSize:35,
         color:'white',
         fontWeight:'bold',
-        marginRight:50
+
+    },
+    textHeader2:{
+        fontSize:25,
+        color:'white',
+        marginBottom:'35%'
     }
 
 })
