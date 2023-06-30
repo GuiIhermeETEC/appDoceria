@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
 
     viewApp:{
-        backgroundColor:'red',
+        backgroundColor:'green',
         width:'90%',
     },
 })
